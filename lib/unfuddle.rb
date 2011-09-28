@@ -3,13 +3,15 @@ $: << File.dirname(__FILE__) unless $:.include?(File.dirname(__FILE__))
 require 'rubygems'
 require 'active_support'
 require 'active_resource'
-require 'unfuddle/base'
 
 module UnfuddleAPI
+  extend ActiveSupport::Autoload
   class Error < StandardError; end
+  autoload :Base,        'unfuddle/base'
+  autoload :Account,     'unfuddle/account'
 
   class << self
-    def authenticate(username, password)
+    def authenticate(username, password, subdomain)
       @username = username
       @password = password
       self::Base.user = username
