@@ -1,4 +1,4 @@
 module UnfuddleAPI
-  class Account < ActiveResource::Base
+  class Account < Base
   end
 end

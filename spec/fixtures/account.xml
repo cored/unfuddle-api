@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account>
+  <access-key>72f82fa1056e26c7c84166124835b372</access-key>
+  <billing-error-date type="date" nil="true"></billing-error-date>
+  <default-ticket-report-id type="integer" nil="true"></default-ticket-report-id>
+  <default-time-zone>Pacific Time (US &amp; Canada)</default-time-zone>
+  <description nil="true"></description>
+  <disk-usage type="integer">0</disk-usage>
+  <flagged-for-billing-error type="boolean">false</flagged-for-billing-error>
+  <force-ssl type="boolean">false</force-ssl>
+  <id type="integer">1</id>
+  <plan>private</plan>
+  <subdomain>ticketmaster-clutch</subdomain>
+  <text-markup>markdown,textile,plain</text-markup>
+  <title>Ticketmaster Clutch Test</title>
+  <features>
+    <attachments>false</attachments>
+    <ssl>false</ssl>
+    <storage>200</storage>
+    <time_tracking>false</time_tracking>
+    <max_people>2</max_people>
+    <max_pages>3</max_pages>
+    <beta>false</beta>
+  </features>
+  <notebook_pages>0</notebook_pages>
+  <created-at>2010-11-02T22:41:23Z</created-at>
+  <updated-at>2011-09-11T03:32:33Z</updated-at>
+</account>
